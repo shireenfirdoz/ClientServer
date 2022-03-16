@@ -4,11 +4,16 @@ Software Design Summary:  Design consist of server factory, server stub, client 
 
 How to run:
 a) As command line argument feature is not working. 
+
 b) Change the below parameters in ClientFactory.cpp to perform for some other statistics.
+
       std::string ipAddr = "localhost"; int port = 30000; int customers = 1;
        int orderCount = 1000; int laptopType = 0;
+       
 c) Change the port and expertNo parameters in ServerFactory.cpp to perform for some other statistics.
+
 d) run the make command on code folder.
+
 e) Run server ./simple_server and run client ./simple_client
 
 Graphs/Plots: 
